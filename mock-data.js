@@ -1,18 +1,46 @@
 const authors = [
-  { id: 1, name: "J. K. Rowling" },
-  { id: 2, name: "J. R. R. Tolkien" },
-  { id: 3, name: "Brent Weeks" },
+  { id: 1, name: "Robert C. Martin" },
+  { id: 2, name: "Martin Fowler" },
+  { id: 3, name: "Steve McConnell" },
 ];
 
 const books = [
-  { id: 1, name: "Harry Potter and the Chamber of Secrets", authorId: 1 },
-  { id: 2, name: "Harry Potter and the Prisoner of Azkaban", authorId: 1 },
-  { id: 3, name: "Harry Potter and the Goblet of Fire", authorId: 1 },
-  { id: 4, name: "The Fellowship of the Ring", authorId: 2 },
-  { id: 5, name: "The Two Towers", authorId: 2 },
-  { id: 6, name: "The Return of the King", authorId: 2 },
-  { id: 7, name: "The Way of Shadows", authorId: 3 },
-  { id: 8, name: "Beyond the Shadows", authorId: 3 },
+  {
+    id: 1,
+    name: "Clean Code: A Handbook of Agile Software Craftsmanship",
+    authorId: 1,
+  },
+  {
+    id: 2,
+    name: "Refactoring: Improving the Design of Existing Code",
+    authorId: 2,
+  },
+  {
+    id: 3,
+    name: "Code Complete: A Practical Handbook of Software Construction",
+    authorId: 3,
+  },
+  {
+    id: 4,
+    name: "Rapid Development: Taming Wild Software Schedules",
+    authorId: 3,
+  },
+  { id: 5, name: "Clean Agile: Back to Basics", authorId: 1 },
+  {
+    id: 6,
+    name: "Software Estimation: Demystifying the Black Art",
+    authorId: 3,
+  },
+  {
+    id: 7,
+    name: "The Clean Coder: A Code of Conduct for Professional Programmers",
+    authorId: 1,
+  },
+  {
+    id: 8,
+    name: "Patterns of Enterprise Application Architecture",
+    authorId: 2,
+  },
 ];
 
 module.exports = { authors, books };
