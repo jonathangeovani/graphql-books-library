@@ -130,6 +130,6 @@ app.use(
     graphiql: true,
   })
 );
-app.listen(8080, () =>
-  console.log("Server running at http://localhost:8080/graphql")
+app.listen(4000, () =>
+  console.log("Server running at http://localhost:4000/graphql")
 );
